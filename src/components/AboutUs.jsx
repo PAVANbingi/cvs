@@ -10,7 +10,7 @@ const Navbar = () => {
           {/* Text */}
           <div className="flex items-center md:w-3/5">
             <p className="mt-2 text-white">
-              At Code Vibe Studio, we transform ideas into exceptional digital experiences. Our dedicated team of designers and developers crafts user-centric websites and applications tailored to your unique needs. We believe in collaboration and precision, working closely with clients to bring their vision to life. Let’s create something amazing together!
+              At Code_Vibe_Studio, we transform ideas into exceptional digital experiences. Our dedicated team of designers and developers crafts user-centric websites and applications tailored to your unique needs. We believe in collaboration and precision, working closely with clients to bring their vision to life. Let’s create something amazing together!
             </p>
           </div>
           
