@@ -10,7 +10,10 @@ const Services = () => {
       <div className="container mx-auto text-center mb-12">
         <h2 className="text-4xl font-bold mb-4">What We Provide</h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6">
+
+      {/* Responsive Grid Layout */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6 justify-center">
+        
         {/* Service 1: Design */}
         <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden text-center transition-transform transform hover:scale-105">
           <img 
@@ -62,6 +65,7 @@ const Services = () => {
             <p className="text-gray-400">Focused improvements to elevate your business.</p>
           </div>
         </div>
+
       </div>
     </section>
   );

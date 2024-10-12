@@ -1,4 +1,7 @@
+
+
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
@@ -10,8 +13,13 @@ const App = () => {
   return (
     <>
      <div className="bg-slate-950 text-white min-h-screen">
-    <Hero />
-      <Navbar />
+    {/* <Hero /> */}
+    <Navbar />
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/about" element={<AboutUs />} />
+        </Routes>
       <div className="pt-16"> {/* Add padding top to prevent content overlap */}
       
         <Services />

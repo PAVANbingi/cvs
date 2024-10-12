@@ -6,7 +6,7 @@ import linkedin from '../assets/linkedin.png'; // Adjusted from .svg to .png
 
 const Footer = () => {
   return (
-    <footer className="bg-white py-8 px-10">
+    <footer className="bg-white py-0 px-20">
       <div className="container mx-auto px-6 text-center md:text-left p-6">
 
         {/* Logo and Contact Form */}
@@ -16,7 +16,7 @@ const Footer = () => {
             <img
               src={logo}
               alt="Code Vibe Studios Logo"
-              className="h-12" // Adjust height as needed
+              className="h-20" // Adjust height as needed
             />
           </div>
           
@@ -52,7 +52,7 @@ const Footer = () => {
             <a href="https://facebook.com" target="_blank" rel="noreferrer">
               <img src={facebook} alt="Facebook logo" width={24} height={24} className="hover:text-yellow-500" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/company/code-vibe-studios/" target="_blank" rel="noreferrer">
               <img src={linkedin} alt="LinkedIn" width={24} height={24} className="hover:text-yellow-500" />
             </a>
           </div>

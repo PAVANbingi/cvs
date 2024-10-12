@@ -3,7 +3,7 @@ import aboutus from '../assets/aboutus.png'; // Ensure this path is correct
 
 const AboutUs = () => {
   return (
-    <section className="bg-blue-600 text-white p-6 md:p-20">
+    <section className="bg-blue-600 text-white py-10 md:px-20">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="text-center text-2xl md:text-3xl font-bold mb-6 md:mb-10">About Us</h2>
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 mb-6">
